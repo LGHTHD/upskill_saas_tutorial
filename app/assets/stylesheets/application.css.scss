@@ -37,6 +37,11 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, F
     border: none;
 }
 
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: white;
@@ -45,6 +50,18 @@ background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, F
         opacity: 0.75;
     }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #00d2ff;
+    }
+}
+
 
 //Home Page styles
 .home-callout {
